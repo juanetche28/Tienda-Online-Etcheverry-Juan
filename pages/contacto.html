@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Contacto</title>
+</head>
+<body id="bodyContacto">
+    <!--Enlace Relativo para volver a Home-->
+    <li> 
+        <a href="../index.html">Volver a Home</a> 
+    </li>
+    <div class="hijo1Contacto">
+        <h1 id="h1Contacto">Para ponerte en contacto con nosotros rellena el siguiente formulario:</h1>
+    </div>
+<!-- FORMULARIO DE CONTACTO-->
+<form id="formContacto">
+    <fieldset class="fieldsetContacto">
+        <legend class="legendContacto">Formulario de Contacto</legend>
+        <div>
+            <label for="nombre">
+                Completa tu Nombre
+            </label>
+            <input type="text" name="nombre" id="nombre" placeholder="completa tu nombre">
+        </div>
+
+        <div>
+            <label for="email">
+                Completa tu email
+            </label>
+            <input type="email" name="email" id="email" placeholder="Completa tu email">
+        </div>
+
+        <div>
+            <label for="pais">
+                Selecciona tu pais
+            </label>
+            <select name="pais" id="">
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Otros">Otros Paises</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+    </fieldset>
+</form>
+
+
+</body>
+</html>

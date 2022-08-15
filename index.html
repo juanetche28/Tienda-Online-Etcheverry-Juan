@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Utilizo una Fuente de google fonts en <h2> del home-->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+    </style>
+    <title>Aromas en el Alma</title>
+</head>
+
+<body id="bodyIndex">
+
+    <!-- Voy a organizar la Pagina mediante Grids; armar logo y menu, Contenido y footer-->
+
+  <div class="padreIndex">
+      <div class="contenedorMenu">
+            <img id="imgLavanda" src="img/lavanda.png" alt="imagen con fores de lavanda">
+          <div class="hijo1Header">
+              <header> 
+                  <h1 id="txtLogo">Aromas en el Alma</h1>
+              </header>
+          </div>
+               <!--Creacion del Menu - lo voy a poner en la misma linea que el logo-->
+          <div class="hijo3Menu">
+               <nav class="menu">
+                   <ul>
+                        <!--Enlaces Relativos-->
+                       <li> 
+                            <a href="pages/productos.html">Productos</a> 
+                       </li>
+                       <li> 
+                            <a href="pages/contacto.html">Contacto</a> 
+                       </li>
+                       <li> 
+                            <a href="pages/nosotros.html">Nosotros</a> 
+                       </li>
+                       <li> 
+                            <a href="pages/galeria.html">Galeria</a> 
+                       </li>       
+                       <li>
+                            <!--Enlace Interno-->
+                            <a href="#pie-de-pagina">Ir al Footer</a>
+                       </li>
+                   </ul>
+               </nav>
+           </div>
+      </div>
+
+      <div class="hijo4Introduccion">
+            <!-- Creo un ID al h2 ya que voy a colocarle una Font personalizada de google Fonts-->
+           <h2 id="h2Home">
+               En la actualidad la aromaterapia es una medicina  complementaria ampliamente practicada, que utiliza aceites esenciales de plantas aromáticas, flores, hojas, semillas, cortezas y frutas para ayudar a curar.
+           </h2>
+      </div>
+
+      <div class="hijo5Lista">
+          <h3 class="h3Home">
+              La aromaterapia no solo huele bien, sino que es beneficiosa de muchas maneras. La aromaterapia puede ayudar a aliviar:
+          </h3>
+            <!-- Aca agregue una Clase a los li ya que voy a personalizar el "punto" con forma de cuadrado-->
+          <li class="liCuadrado">Náuseas</li>
+          <li class="liCuadrado">Dolores y molestias corporales</li>
+          <li class="liCuadrado">Ansiedad, agitación, estrés y depresión</li>
+          <li class="liCuadrado">Fatiga e insomnio</li>
+          <li class="liCuadrado">Dolores musculares</li>
+          <li class="liCuadrado">Dolores de cabeza</li>
+          <li class="liCuadrado">Problemas menstruales</li>
+      </div>
+
+        <!-- Creo una Tabla -->
+      <div class="Hijo6Tabla">
+           <h4 class="h3Home">¿Cómo puedo utilizar la aromaterapia?</h4>
+           <table>
+               <tr>
+                   <th><strong>Uso</strong></td>
+                   <th><strong>Detalle</strong></td>
+               </tr>
+               <tr>
+                   <td>Inhalación indirecta</td>
+                   <td>La persona respira un aceite esencial al utilizar un difusor</td>
+               </tr>
+               <tr>
+                   <td>Inhalación directa</td>
+                   <td>La persona respira un aceite esencial utilizando un inhalador individual</td>
+               </tr>
+               <tr>
+                   <td>Masaje</td>
+                   <td>se diluyen uno o más aceites esenciales y se aplican masajes sobre la piel</td>
+               </tr>
+           </table>
+      </div>
+
+      <div class="hijo7Footer">
+           <li id="volverHome">
+              <!--Enlace Interno-->
+              <a href="#txtLogo">Volver al inicio</a>
+           </li>
+
+           <footer id="pie-de-pagina">
+              <h3>Copyright ©</h3>
+           </footer>
+      </div>
+  </div>
+</body>
+
+</html>
